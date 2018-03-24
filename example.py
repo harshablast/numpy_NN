@@ -18,7 +18,7 @@ y = np.array([[0],[0],[0],[1]])
 
 #Training the neural network on the dummy dataset
 
-nn.backward_pass(x,y,10000,0.1)
+nn.backward_pass(x,y,100000,0.1)
 
 #Showing test results on a couple of sample data
 
